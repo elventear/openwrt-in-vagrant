@@ -1,8 +1,8 @@
 #!/bin/bash
 NAME="openwrt"
-URL="https://downloads.openwrt.org/releases/18.06.0/targets/x86/generic/openwrt-18.06.0-x86-generic-combined-ext4.img.gz"
-VDI="./openwrt.18.06.0.vdi"
-VMNAME="openwrt-18.06.0-x86"
+URL="https://downloads.openwrt.org/releases/18.06.1/targets/x86/generic/openwrt-18.06.1-x86-generic-combined-ext4.img.gz"
+VDI="./openwrt.18.06.1.vdi"
+VMNAME="openwrt-18.06.1-x86"
 OPENWRT_SRC=".openwrt_src"
 
 if command -v ncat >/dev/null 2>&1
